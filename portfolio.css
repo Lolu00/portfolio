@@ -1,0 +1,104 @@
+/* Base styles */
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light theme styles */
+body.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.light-theme .navbar {
+    background-color: #f8f9fa !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+body.light-theme .navbar .nav-link {
+    color: #000000 !important;
+}
+
+body.light-theme .navbar .nav-link:hover {
+    color: #007bff !important;
+}
+
+body.light-theme .hero {
+    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%) !important;
+    color: #ffffff !important;
+}
+
+body.light-theme section {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.light-theme .card {
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+body.light-theme .btn {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+body.light-theme .btn:hover {
+    background-color: #0056b3;
+}
+
+body.light-theme footer {
+    background-color: #f8f9fa;
+    color: #000000;
+}
+
+/* Dark theme styles */
+body.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-theme .navbar {
+    background-color: #1f1f1f !important;
+    box-shadow: 0 2px 5px rgba(255,255,255,0.1);
+}
+
+body.dark-theme .navbar .nav-link {
+    color: #e0e0e0 !important;
+}
+
+body.dark-theme .navbar .nav-link:hover {
+    color: #1db954 !important;
+}
+
+body.dark-theme .hero {
+    background: linear-gradient(135deg, #1db954 0%, #1ed760 100%) !important;
+    color: #121212 !important;
+}
+
+body.dark-theme section {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+body.dark-theme .card {
+    background-color: #292929;
+    color: #e0e0e0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+body.dark-theme .btn {
+    background-color: #1db954;
+    color: #121212;
+}
+
+body.dark-theme .btn:hover {
+    background-color: #17a44c;
+}
+
+body.dark-theme footer {
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+/* System default - no additional styles, uses OS preference */
