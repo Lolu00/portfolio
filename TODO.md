@@ -1,4 +1,4 @@
-# Portfolio Enhancement TODO
+u# Portfolio Enhancement TODO
 
 ## Completed Tasks
 - [x] Adjust grid to consistently display 3 columns (col-lg-4) for better image accommodation
